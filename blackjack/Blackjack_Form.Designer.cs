@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Blackjack_Form));
             this.label_pd = new System.Windows.Forms.Label();
             this.label_numPlayers = new System.Windows.Forms.Label();
             this.button_start = new System.Windows.Forms.Button();
@@ -69,27 +68,30 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.player4 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.player3 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.player1 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.player2 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label_caption1 = new System.Windows.Forms.Label();
+            this.label_caption2 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label_caption = new System.Windows.Forms.Label();
+            this.pictureBox_caption = new System.Windows.Forms.PictureBox();
             this.panel_playerButtons.SuspendLayout();
             this.player4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.player3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.player1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.player2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_caption)).BeginInit();
             this.SuspendLayout();
             // 
             // label_pd
@@ -108,13 +110,13 @@
             // 
             this.label_numPlayers.AutoSize = true;
             this.label_numPlayers.BackColor = System.Drawing.Color.Transparent;
-            this.label_numPlayers.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_numPlayers.ForeColor = System.Drawing.Color.Honeydew;
-            this.label_numPlayers.Location = new System.Drawing.Point(47, 98);
+            this.label_numPlayers.Font = new System.Drawing.Font("Sketch Block", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_numPlayers.ForeColor = System.Drawing.Color.White;
+            this.label_numPlayers.Location = new System.Drawing.Point(31, 114);
             this.label_numPlayers.Name = "label_numPlayers";
-            this.label_numPlayers.Size = new System.Drawing.Size(124, 17);
+            this.label_numPlayers.Size = new System.Drawing.Size(163, 18);
             this.label_numPlayers.TabIndex = 5;
-            this.label_numPlayers.Text = "Number of Players";
+            this.label_numPlayers.Text = "number of players";
             // 
             // button_start
             // 
@@ -124,11 +126,11 @@
             this.button_start.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkViolet;
             this.button_start.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
             this.button_start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_start.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_start.Font = new System.Drawing.Font("Sketch Block", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_start.ForeColor = System.Drawing.Color.Honeydew;
-            this.button_start.Location = new System.Drawing.Point(51, 212);
+            this.button_start.Location = new System.Drawing.Point(31, 236);
             this.button_start.Name = "button_start";
-            this.button_start.Size = new System.Drawing.Size(116, 33);
+            this.button_start.Size = new System.Drawing.Size(162, 33);
             this.button_start.TabIndex = 6;
             this.button_start.Text = "START";
             this.button_start.UseVisualStyleBackColor = false;
@@ -136,17 +138,17 @@
             // 
             // button_exit
             // 
-            this.button_exit.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.button_exit.FlatAppearance.BorderColor = System.Drawing.Color.MediumAquamarine;
+            this.button_exit.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.button_exit.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateGray;
             this.button_exit.FlatAppearance.BorderSize = 0;
-            this.button_exit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MediumAquamarine;
-            this.button_exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Aquamarine;
+            this.button_exit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSlateGray;
+            this.button_exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSeaGreen;
             this.button_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_exit.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_exit.Font = new System.Drawing.Font("Sketch Block", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_exit.ForeColor = System.Drawing.Color.Honeydew;
-            this.button_exit.Location = new System.Drawing.Point(52, 143);
+            this.button_exit.Location = new System.Drawing.Point(33, 167);
             this.button_exit.Name = "button_exit";
-            this.button_exit.Size = new System.Drawing.Size(113, 28);
+            this.button_exit.Size = new System.Drawing.Size(160, 28);
             this.button_exit.TabIndex = 7;
             this.button_exit.Text = "EXIT";
             this.button_exit.UseVisualStyleBackColor = false;
@@ -154,17 +156,17 @@
             // 
             // button_reset
             // 
-            this.button_reset.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.button_reset.FlatAppearance.BorderColor = System.Drawing.Color.MediumAquamarine;
+            this.button_reset.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.button_reset.FlatAppearance.BorderColor = System.Drawing.Color.DarkSlateGray;
             this.button_reset.FlatAppearance.BorderSize = 0;
-            this.button_reset.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MediumAquamarine;
-            this.button_reset.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Aquamarine;
+            this.button_reset.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSlateGray;
+            this.button_reset.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSeaGreen;
             this.button_reset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_reset.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_reset.Font = new System.Drawing.Font("Sketch Block", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_reset.ForeColor = System.Drawing.Color.Honeydew;
-            this.button_reset.Location = new System.Drawing.Point(53, 177);
+            this.button_reset.Location = new System.Drawing.Point(33, 201);
             this.button_reset.Name = "button_reset";
-            this.button_reset.Size = new System.Drawing.Size(113, 29);
+            this.button_reset.Size = new System.Drawing.Size(160, 29);
             this.button_reset.TabIndex = 8;
             this.button_reset.Text = "RESET";
             this.button_reset.UseVisualStyleBackColor = false;
@@ -172,15 +174,16 @@
             // 
             // comboBox_playerSelect
             // 
+            this.comboBox_playerSelect.Font = new System.Drawing.Font("Sketch Block", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_playerSelect.FormattingEnabled = true;
             this.comboBox_playerSelect.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4"});
-            this.comboBox_playerSelect.Location = new System.Drawing.Point(52, 117);
+            this.comboBox_playerSelect.Location = new System.Drawing.Point(33, 133);
             this.comboBox_playerSelect.Name = "comboBox_playerSelect";
-            this.comboBox_playerSelect.Size = new System.Drawing.Size(113, 21);
+            this.comboBox_playerSelect.Size = new System.Drawing.Size(160, 28);
             this.comboBox_playerSelect.TabIndex = 13;
             this.comboBox_playerSelect.Text = "1";
             this.comboBox_playerSelect.SelectedIndexChanged += new System.EventHandler(this.comboBox_playerSelect_SelectedIndexChanged);
@@ -378,7 +381,7 @@
             this.panel_playerButtons.Controls.Add(this.button_double);
             this.panel_playerButtons.Controls.Add(this.button_split);
             this.panel_playerButtons.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel_playerButtons.Location = new System.Drawing.Point(192, 247);
+            this.panel_playerButtons.Location = new System.Drawing.Point(286, 233);
             this.panel_playerButtons.Name = "panel_playerButtons";
             this.panel_playerButtons.Size = new System.Drawing.Size(323, 44);
             this.panel_playerButtons.TabIndex = 32;
@@ -471,11 +474,11 @@
             this.button_continue.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkViolet;
             this.button_continue.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
             this.button_continue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_continue.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_continue.Font = new System.Drawing.Font("Sketch Block", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_continue.ForeColor = System.Drawing.Color.White;
-            this.button_continue.Location = new System.Drawing.Point(53, 212);
+            this.button_continue.Location = new System.Drawing.Point(33, 236);
             this.button_continue.Name = "button_continue";
-            this.button_continue.Size = new System.Drawing.Size(114, 33);
+            this.button_continue.Size = new System.Drawing.Size(160, 33);
             this.button_continue.TabIndex = 32;
             this.button_continue.Text = "CONTINUE ?";
             this.button_continue.UseVisualStyleBackColor = false;
@@ -585,7 +588,7 @@
             this.textBox4.Font = new System.Drawing.Font("Komika Title - Axis", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.ForeColor = System.Drawing.Color.White;
             this.textBox4.Location = new System.Drawing.Point(92, 4);
-            this.textBox4.MaxLength = 12;
+            this.textBox4.MaxLength = 8;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(163, 32);
             this.textBox4.TabIndex = 4;
@@ -599,7 +602,7 @@
             this.textBox3.Font = new System.Drawing.Font("Komika Title - Axis", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.Color.White;
             this.textBox3.Location = new System.Drawing.Point(88, 4);
-            this.textBox3.MaxLength = 12;
+            this.textBox3.MaxLength = 8;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(163, 32);
             this.textBox3.TabIndex = 3;
@@ -613,7 +616,7 @@
             this.textBox2.Font = new System.Drawing.Font("Komika Title - Axis", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.White;
             this.textBox2.Location = new System.Drawing.Point(87, 4);
-            this.textBox2.MaxLength = 12;
+            this.textBox2.MaxLength = 8;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(163, 32);
             this.textBox2.TabIndex = 2;
@@ -627,7 +630,7 @@
             this.textBox1.Font = new System.Drawing.Font("Komika Title - Axis", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(979, 561);
-            this.textBox1.MaxLength = 12;
+            this.textBox1.MaxLength = 8;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(163, 32);
             this.textBox1.TabIndex = 1;
@@ -646,17 +649,6 @@
             this.player4.TabIndex = 54;
             this.player4.Visible = false;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Image = global::blackjack.Properties.Resources.cool;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(78, 83);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 31;
-            this.pictureBox2.TabStop = false;
-            // 
             // player3
             // 
             this.player3.BackColor = System.Drawing.Color.Transparent;
@@ -669,17 +661,6 @@
             this.player3.TabIndex = 55;
             this.player3.Visible = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Image = global::blackjack.Properties.Resources.dog_07;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(80, 83);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 30;
-            this.pictureBox1.TabStop = false;
-            // 
             // player1
             // 
             this.player1.BackColor = System.Drawing.Color.Transparent;
@@ -688,16 +669,6 @@
             this.player1.Name = "player1";
             this.player1.Size = new System.Drawing.Size(287, 92);
             this.player1.TabIndex = 56;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::blackjack.Properties.Resources.pup;
-            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(77, 84);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 32;
-            this.pictureBox4.TabStop = false;
             // 
             // player2
             // 
@@ -711,17 +682,33 @@
             this.player2.TabIndex = 57;
             this.player2.Visible = false;
             // 
-            // pictureBox3
+            // label_caption1
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox3.Image = global::blackjack.Properties.Resources.golden;
-            this.pictureBox3.Location = new System.Drawing.Point(1, 1);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(80, 84);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 32;
-            this.pictureBox3.TabStop = false;
+            this.label_caption1.AutoSize = true;
+            this.label_caption1.BackColor = System.Drawing.Color.White;
+            this.label_caption1.Font = new System.Drawing.Font("Komika Title", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_caption1.ForeColor = System.Drawing.Color.DarkBlue;
+            this.label_caption1.Location = new System.Drawing.Point(574, 40);
+            this.label_caption1.Name = "label_caption1";
+            this.label_caption1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label_caption1.Size = new System.Drawing.Size(174, 34);
+            this.label_caption1.TabIndex = 59;
+            this.label_caption1.Text = "SET YOUR PLAYERS";
+            this.label_caption1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label_caption2
+            // 
+            this.label_caption2.AutoSize = true;
+            this.label_caption2.BackColor = System.Drawing.Color.White;
+            this.label_caption2.Font = new System.Drawing.Font("Komika Title", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_caption2.ForeColor = System.Drawing.Color.DarkBlue;
+            this.label_caption2.Location = new System.Drawing.Point(589, 66);
+            this.label_caption2.Name = "label_caption2";
+            this.label_caption2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label_caption2.Size = new System.Drawing.Size(167, 34);
+            this.label_caption2.TabIndex = 61;
+            this.label_caption2.Text = "AND THEIR NAMES";
+            this.label_caption2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox5
             // 
@@ -734,29 +721,70 @@
             this.pictureBox5.TabIndex = 35;
             this.pictureBox5.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox2.Image = global::blackjack.Properties.Resources.cool;
+            this.pictureBox2.Location = new System.Drawing.Point(3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(78, 83);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 31;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::blackjack.Properties.Resources.pup;
+            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(77, 84);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 32;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox3.Image = global::blackjack.Properties.Resources.golden;
+            this.pictureBox3.Location = new System.Drawing.Point(1, 1);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(80, 84);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 32;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Image = global::blackjack.Properties.Resources.dog_07;
+            this.pictureBox1.Location = new System.Drawing.Point(2, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(80, 83);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 30;
+            this.pictureBox1.TabStop = false;
+            // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(14, -6);
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Image = global::blackjack.Properties.Resources.logo;
+            this.pictureBox6.Location = new System.Drawing.Point(5, 0);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(197, 115);
+            this.pictureBox6.Size = new System.Drawing.Size(219, 121);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 58;
             this.pictureBox6.TabStop = false;
             // 
-            // label_caption
+            // pictureBox_caption
             // 
-            this.label_caption.AutoSize = true;
-            this.label_caption.BackColor = System.Drawing.Color.Transparent;
-            this.label_caption.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_caption.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label_caption.Location = new System.Drawing.Point(885, 15);
-            this.label_caption.Name = "label_caption";
-            this.label_caption.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label_caption.Size = new System.Drawing.Size(272, 19);
-            this.label_caption.TabIndex = 59;
-            this.label_caption.Text = "SET YOUR NAME IF YOU HAVE ONE  ";
-            this.label_caption.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pictureBox_caption.Image = global::blackjack.Properties.Resources.caption;
+            this.pictureBox_caption.Location = new System.Drawing.Point(551, 9);
+            this.pictureBox_caption.Name = "pictureBox_caption";
+            this.pictureBox_caption.Size = new System.Drawing.Size(229, 128);
+            this.pictureBox_caption.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_caption.TabIndex = 60;
+            this.pictureBox_caption.TabStop = false;
             // 
             // Blackjack_Form
             // 
@@ -765,7 +793,9 @@
             this.BackColor = System.Drawing.Color.SeaGreen;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1193, 697);
-            this.Controls.Add(this.label_caption);
+            this.Controls.Add(this.label_numPlayers);
+            this.Controls.Add(this.label_caption2);
+            this.Controls.Add(this.label_caption1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.flowPanel_4);
             this.Controls.Add(this.flowPanel_3);
@@ -773,7 +803,6 @@
             this.Controls.Add(this.flowPanel_1);
             this.Controls.Add(this.label_b1);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.label_numPlayers);
             this.Controls.Add(this.comboBox_playerSelect);
             this.Controls.Add(this.button_reset);
             this.Controls.Add(this.button_exit);
@@ -794,8 +823,9 @@
             this.Controls.Add(this.player1);
             this.Controls.Add(this.player2);
             this.Controls.Add(this.player3);
-            this.Controls.Add(this.button_continue);
             this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox_caption);
+            this.Controls.Add(this.button_continue);
             this.Controls.Add(this.button_start);
             this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -805,17 +835,18 @@
             this.panel_playerButtons.ResumeLayout(false);
             this.player4.ResumeLayout(false);
             this.player4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.player3.ResumeLayout(false);
             this.player3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.player1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.player2.ResumeLayout(false);
             this.player2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_caption)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -871,8 +902,10 @@
         private System.Windows.Forms.Panel player3;
         private System.Windows.Forms.Panel player1;
         private System.Windows.Forms.Panel player2;
+        private System.Windows.Forms.Label label_caption1;
+        private System.Windows.Forms.PictureBox pictureBox_caption;
+        private System.Windows.Forms.Label label_caption2;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Label label_caption;
     }
 }
 

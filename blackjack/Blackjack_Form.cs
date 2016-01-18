@@ -90,16 +90,6 @@ namespace blackjack
         /// <param name="id"></param>
         public void displayCard(Card card, int id) 
         {
-            // create new picture box
-            /*
-            PictureBox new_card = new PictureBox();
-            new_card.Width = 60;
-            new_card.Height = 95;
-            new_card.BackgroundImageLayout = ImageLayout.Stretch;
-            new_card.BackgroundImage = card.card_front;
-            new_card.Location = new Point(card.x, card.y); 
-            */
-
             Card new_card = new Card(card.Face.ToString() +"_of_" + card.Suit.ToString());
             new_card.Location = new Point(card.x, card.y); 
 
@@ -145,8 +135,13 @@ namespace blackjack
         public void display_betButtons()
         {
 
-            label_caption.ForeColor = System.Drawing.Color.LimeGreen;
-            label_caption.Text = "MAKE YOUR BET, " + playernames[game.cur_player].Text.ToUpper();
+            //label_caption1.ForeColor = System.Drawing.Color.DarkBlue;
+            //label_caption2.ForeColor = System.Drawing.Color.DarkBlue;
+            label_caption1.Text = "MAKE YOUR BET";
+            label_caption2.Text = playernames[game.cur_player].Text.ToUpper();
+            label_caption1.Visible = true;
+            label_caption2.Visible = true;
+            pictureBox_caption.Visible = true;
 
             movePanelPlayerButtons();
 
@@ -288,11 +283,14 @@ namespace blackjack
                 Label temp = game.players[game.cur_player].hands[game.cur_hand].label_bet;
                 panels_bets[game.cur_player].Controls.Add(temp);
 
-                label_caption.Text = "MAKE YOUR BET, " + playernames[game.cur_player].Text.ToUpper();
+                //label_caption1.Text = "MAKE YOUR BET,";
+                label_caption2.Text = playernames[game.cur_player].Text.ToUpper();
              }
              else{
-                label_caption.Text = "";
-                label_caption.Visible = false;
+                label_caption1.Text = "";
+                label_caption1.Visible = false;
+                label_caption2.Visible = false;
+                pictureBox_caption.Visible = false;
 
                 game.startNewRound();
                 display_playButtons();
@@ -368,9 +366,11 @@ namespace blackjack
             if (game.NumActivePlayers == 0){
                 // GAME IS OVER
                 updatePlayerBalances();
-                label_caption.Visible = true;
-                label_caption.ForeColor = System.Drawing.Color.Red;
-                label_caption.Text = "MEOW MEOW, DOGS LOSE";
+                pictureBox_caption.Visible = true;
+                label_caption1.Visible = true;
+                label_caption2.Visible = true;
+                label_caption1.Text = "MEOW MEOW";
+                label_caption2.Text = "GAME OVER";
                 button_continue.Visible = false;
             }
             else{
@@ -390,9 +390,11 @@ namespace blackjack
             comboBox_playerSelect.Enabled = true;
             button_start.Visible = true;
             NumPlayers = "1";
-            label_caption.Text = "SET YOUR NAME IF YOU HAVE ONE";
-            label_caption.ForeColor = System.Drawing.Color.DarkSlateGray;
-            label_caption.Visible = true;
+            pictureBox_caption.Visible = true;
+            label_caption1.Text = "SET YOUR PLAYERS";
+            label_caption2.Text = "SET YOUR NAME";
+            label_caption1.Visible = true;
+            label_caption2.Visible = true;
 
             display_playerControls(false, 1);
             clearCards();
@@ -473,7 +475,6 @@ namespace blackjack
                 if (!player.IsActive)
                 {
                     labels_balance[player.id].Text = "GAME OVER";
-                    //labels_balance[player.id].ForeColor = System.Drawing.Color.Red;
                 }
                 else
                 {
@@ -513,7 +514,7 @@ namespace blackjack
             comboBox_playerSelect.Enabled = false;
             button_start.Visible = false;
             button_reset.Enabled = true;
-            label_caption.Visible = true;
+            label_caption1.Visible = true;
             
 
             // lock player names
@@ -551,7 +552,7 @@ namespace blackjack
             // manage game elements
             game.continuePlaying();
 
-            label_caption.Visible = true;
+            label_caption1.Visible = true;
             display_betButtons();
         }
 
@@ -577,37 +578,6 @@ namespace blackjack
         {
             System.Environment.Exit(0);
         }
-        /*
-             private void button_bet100_Click(object sender, EventArgs e)
-             {
-                 Button b = (Button)sender;
-                 int value = int.Parse(b.Tag.ToString());
-
-                 game.setBet(value);
-                 updatePlayerBalances();
-                 nextBet();
-             }
-
-             private void button_bet25_Click(object sender, EventArgs e)
-             {
-                 game.setBet(25);
-                 updatePlayerBalances();
-                 nextBet();
-             }
-             private void button_bet5_Click(object sender, EventArgs e)
-             {
-                 game.setBet(5);
-                 updatePlayerBalances();
-                 nextBet();
-             }
-    
-             private void button_betAll_Click(object sender, EventArgs e)
-             {
-                 game.setBet((int)game.players[game.cur_player].Balance);
-                 updatePlayerBalances();
-                 nextBet();
-             }
-             */
 
         private void button_double_Click(object sender, EventArgs e)
         {
