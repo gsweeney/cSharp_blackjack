@@ -68,28 +68,28 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.player4 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.player3 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.player1 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.player2 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label_caption1 = new System.Windows.Forms.Label();
             this.label_caption2 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox_caption = new System.Windows.Forms.PictureBox();
             this.panel_playerButtons.SuspendLayout();
             this.player4.SuspendLayout();
-            this.player3.SuspendLayout();
-            this.player1.SuspendLayout();
-            this.player2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.player3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.player1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.player2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_caption)).BeginInit();
             this.SuspendLayout();
@@ -98,11 +98,11 @@
             // 
             this.label_pd.AutoSize = true;
             this.label_pd.BackColor = System.Drawing.Color.Transparent;
-            this.label_pd.Font = new System.Drawing.Font("Komika Title - Paint", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_pd.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_pd.ForeColor = System.Drawing.Color.White;
-            this.label_pd.Location = new System.Drawing.Point(779, 140);
+            this.label_pd.Location = new System.Drawing.Point(483, 140);
             this.label_pd.Name = "label_pd";
-            this.label_pd.Size = new System.Drawing.Size(89, 32);
+            this.label_pd.Size = new System.Drawing.Size(75, 25);
             this.label_pd.TabIndex = 2;
             this.label_pd.Text = "Dealer";
             // 
@@ -110,11 +110,11 @@
             // 
             this.label_numPlayers.AutoSize = true;
             this.label_numPlayers.BackColor = System.Drawing.Color.Transparent;
-            this.label_numPlayers.Font = new System.Drawing.Font("Sketch Block", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_numPlayers.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_numPlayers.ForeColor = System.Drawing.Color.White;
-            this.label_numPlayers.Location = new System.Drawing.Point(31, 114);
+            this.label_numPlayers.Location = new System.Drawing.Point(40, 114);
             this.label_numPlayers.Name = "label_numPlayers";
-            this.label_numPlayers.Size = new System.Drawing.Size(163, 18);
+            this.label_numPlayers.Size = new System.Drawing.Size(143, 18);
             this.label_numPlayers.TabIndex = 5;
             this.label_numPlayers.Text = "number of players";
             // 
@@ -126,7 +126,7 @@
             this.button_start.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkViolet;
             this.button_start.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
             this.button_start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_start.Font = new System.Drawing.Font("Sketch Block", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_start.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_start.ForeColor = System.Drawing.Color.Honeydew;
             this.button_start.Location = new System.Drawing.Point(31, 236);
             this.button_start.Name = "button_start";
@@ -144,7 +144,7 @@
             this.button_exit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSlateGray;
             this.button_exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSeaGreen;
             this.button_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_exit.Font = new System.Drawing.Font("Sketch Block", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_exit.ForeColor = System.Drawing.Color.Honeydew;
             this.button_exit.Location = new System.Drawing.Point(33, 167);
             this.button_exit.Name = "button_exit";
@@ -162,7 +162,7 @@
             this.button_reset.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSlateGray;
             this.button_reset.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSeaGreen;
             this.button_reset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_reset.Font = new System.Drawing.Font("Sketch Block", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_reset.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_reset.ForeColor = System.Drawing.Color.Honeydew;
             this.button_reset.Location = new System.Drawing.Point(33, 201);
             this.button_reset.Name = "button_reset";
@@ -174,7 +174,7 @@
             // 
             // comboBox_playerSelect
             // 
-            this.comboBox_playerSelect.Font = new System.Drawing.Font("Sketch Block", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox_playerSelect.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_playerSelect.FormattingEnabled = true;
             this.comboBox_playerSelect.Items.AddRange(new object[] {
             "1",
@@ -227,7 +227,7 @@
             // groupBox_dealer
             // 
             this.groupBox_dealer.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox_dealer.Location = new System.Drawing.Point(889, 71);
+            this.groupBox_dealer.Location = new System.Drawing.Point(593, 53);
             this.groupBox_dealer.Name = "groupBox_dealer";
             this.groupBox_dealer.Size = new System.Drawing.Size(287, 206);
             this.groupBox_dealer.TabIndex = 17;
@@ -237,11 +237,11 @@
             // 
             this.label_h4.AutoSize = true;
             this.label_h4.BackColor = System.Drawing.Color.Transparent;
-            this.label_h4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_h4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_h4.ForeColor = System.Drawing.Color.White;
             this.label_h4.Location = new System.Drawing.Point(10, 298);
             this.label_h4.Name = "label_h4";
-            this.label_h4.Size = new System.Drawing.Size(95, 22);
+            this.label_h4.Size = new System.Drawing.Size(94, 20);
             this.label_h4.TabIndex = 21;
             this.label_h4.Text = "                 ";
             // 
@@ -249,11 +249,11 @@
             // 
             this.label_h3.AutoSize = true;
             this.label_h3.BackColor = System.Drawing.Color.Transparent;
-            this.label_h3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_h3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_h3.ForeColor = System.Drawing.Color.White;
             this.label_h3.Location = new System.Drawing.Point(301, 298);
             this.label_h3.Name = "label_h3";
-            this.label_h3.Size = new System.Drawing.Size(95, 22);
+            this.label_h3.Size = new System.Drawing.Size(94, 20);
             this.label_h3.TabIndex = 22;
             this.label_h3.Text = "                 ";
             // 
@@ -261,11 +261,11 @@
             // 
             this.label_h2.AutoSize = true;
             this.label_h2.BackColor = System.Drawing.Color.Transparent;
-            this.label_h2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_h2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_h2.ForeColor = System.Drawing.Color.White;
             this.label_h2.Location = new System.Drawing.Point(592, 298);
             this.label_h2.Name = "label_h2";
-            this.label_h2.Size = new System.Drawing.Size(95, 22);
+            this.label_h2.Size = new System.Drawing.Size(94, 20);
             this.label_h2.TabIndex = 23;
             this.label_h2.Text = "                 ";
             // 
@@ -273,11 +273,11 @@
             // 
             this.label_h1.AutoSize = true;
             this.label_h1.BackColor = System.Drawing.Color.Transparent;
-            this.label_h1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_h1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_h1.ForeColor = System.Drawing.Color.White;
             this.label_h1.Location = new System.Drawing.Point(886, 298);
             this.label_h1.Name = "label_h1";
-            this.label_h1.Size = new System.Drawing.Size(95, 22);
+            this.label_h1.Size = new System.Drawing.Size(94, 20);
             this.label_h1.TabIndex = 24;
             this.label_h1.Text = "                 ";
             // 
@@ -285,11 +285,11 @@
             // 
             this.label_hd.AutoSize = true;
             this.label_hd.BackColor = System.Drawing.Color.Transparent;
-            this.label_hd.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_hd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_hd.ForeColor = System.Drawing.Color.White;
-            this.label_hd.Location = new System.Drawing.Point(887, 40);
+            this.label_hd.Location = new System.Drawing.Point(591, 22);
             this.label_hd.Name = "label_hd";
-            this.label_hd.Size = new System.Drawing.Size(114, 25);
+            this.label_hd.Size = new System.Drawing.Size(94, 20);
             this.label_hd.TabIndex = 25;
             this.label_hd.Text = "                 ";
             // 
@@ -302,7 +302,7 @@
             this.button_hit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkViolet;
             this.button_hit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
             this.button_hit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_hit.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_hit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_hit.ForeColor = System.Drawing.Color.White;
             this.button_hit.Location = new System.Drawing.Point(88, 5);
             this.button_hit.Name = "button_hit";
@@ -321,7 +321,7 @@
             this.button_stand.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkViolet;
             this.button_stand.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
             this.button_stand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_stand.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_stand.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_stand.ForeColor = System.Drawing.Color.White;
             this.button_stand.Location = new System.Drawing.Point(11, 5);
             this.button_stand.Name = "button_stand";
@@ -340,7 +340,7 @@
             this.button_split.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkViolet;
             this.button_split.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
             this.button_split.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_split.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_split.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_split.ForeColor = System.Drawing.Color.White;
             this.button_split.Location = new System.Drawing.Point(240, 5);
             this.button_split.Name = "button_split";
@@ -359,7 +359,7 @@
             this.button_double.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkViolet;
             this.button_double.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
             this.button_double.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_double.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_double.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_double.ForeColor = System.Drawing.Color.White;
             this.button_double.Location = new System.Drawing.Point(164, 5);
             this.button_double.Name = "button_double";
@@ -391,10 +391,10 @@
             this.button_betALL.BackColor = System.Drawing.Color.LimeGreen;
             this.button_betALL.FlatAppearance.BorderColor = System.Drawing.Color.LimeGreen;
             this.button_betALL.FlatAppearance.BorderSize = 2;
-            this.button_betALL.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGreen;
+            this.button_betALL.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LimeGreen;
             this.button_betALL.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGreen;
             this.button_betALL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_betALL.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_betALL.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_betALL.ForeColor = System.Drawing.Color.White;
             this.button_betALL.Location = new System.Drawing.Point(215, 3);
             this.button_betALL.Name = "button_betALL";
@@ -411,10 +411,10 @@
             this.button_bet25.BackColor = System.Drawing.Color.LimeGreen;
             this.button_bet25.FlatAppearance.BorderColor = System.Drawing.Color.LimeGreen;
             this.button_bet25.FlatAppearance.BorderSize = 2;
-            this.button_bet25.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGreen;
+            this.button_bet25.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LimeGreen;
             this.button_bet25.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGreen;
             this.button_bet25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_bet25.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_bet25.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_bet25.ForeColor = System.Drawing.Color.White;
             this.button_bet25.Location = new System.Drawing.Point(95, 3);
             this.button_bet25.Name = "button_bet25";
@@ -431,10 +431,10 @@
             this.button_bet5.BackColor = System.Drawing.Color.LimeGreen;
             this.button_bet5.FlatAppearance.BorderColor = System.Drawing.Color.LimeGreen;
             this.button_bet5.FlatAppearance.BorderSize = 2;
-            this.button_bet5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGreen;
+            this.button_bet5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LimeGreen;
             this.button_bet5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGreen;
             this.button_bet5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_bet5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_bet5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_bet5.ForeColor = System.Drawing.Color.White;
             this.button_bet5.Location = new System.Drawing.Point(37, 3);
             this.button_bet5.Name = "button_bet5";
@@ -451,10 +451,10 @@
             this.button_bet100.BackColor = System.Drawing.Color.LimeGreen;
             this.button_bet100.FlatAppearance.BorderColor = System.Drawing.Color.LimeGreen;
             this.button_bet100.FlatAppearance.BorderSize = 2;
-            this.button_bet100.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGreen;
+            this.button_bet100.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LimeGreen;
             this.button_bet100.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkGreen;
             this.button_bet100.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_bet100.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_bet100.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_bet100.ForeColor = System.Drawing.Color.White;
             this.button_bet100.Location = new System.Drawing.Point(153, 3);
             this.button_bet100.Name = "button_bet100";
@@ -474,7 +474,7 @@
             this.button_continue.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkViolet;
             this.button_continue.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
             this.button_continue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_continue.Font = new System.Drawing.Font("Sketch Block", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_continue.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_continue.ForeColor = System.Drawing.Color.White;
             this.button_continue.Location = new System.Drawing.Point(33, 236);
             this.button_continue.Name = "button_continue";
@@ -489,11 +489,11 @@
             // 
             this.label_b1.AutoSize = true;
             this.label_b1.BackColor = System.Drawing.Color.Transparent;
-            this.label_b1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_b1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_b1.ForeColor = System.Drawing.Color.White;
             this.label_b1.Location = new System.Drawing.Point(974, 596);
             this.label_b1.Name = "label_b1";
-            this.label_b1.Size = new System.Drawing.Size(21, 22);
+            this.label_b1.Size = new System.Drawing.Size(24, 25);
             this.label_b1.TabIndex = 36;
             this.label_b1.Text = "0";
             // 
@@ -501,11 +501,11 @@
             // 
             this.label_b2.AutoSize = true;
             this.label_b2.BackColor = System.Drawing.Color.Transparent;
-            this.label_b2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_b2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_b2.ForeColor = System.Drawing.Color.White;
             this.label_b2.Location = new System.Drawing.Point(87, 40);
             this.label_b2.Name = "label_b2";
-            this.label_b2.Size = new System.Drawing.Size(21, 22);
+            this.label_b2.Size = new System.Drawing.Size(24, 25);
             this.label_b2.TabIndex = 37;
             this.label_b2.Text = "0";
             // 
@@ -513,11 +513,11 @@
             // 
             this.label_b3.AutoSize = true;
             this.label_b3.BackColor = System.Drawing.Color.Transparent;
-            this.label_b3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_b3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_b3.ForeColor = System.Drawing.Color.White;
             this.label_b3.Location = new System.Drawing.Point(88, 39);
             this.label_b3.Name = "label_b3";
-            this.label_b3.Size = new System.Drawing.Size(21, 22);
+            this.label_b3.Size = new System.Drawing.Size(24, 25);
             this.label_b3.TabIndex = 38;
             this.label_b3.Text = "0";
             // 
@@ -525,19 +525,19 @@
             // 
             this.label_b4.AutoSize = true;
             this.label_b4.BackColor = System.Drawing.Color.Transparent;
-            this.label_b4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_b4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_b4.ForeColor = System.Drawing.Color.White;
             this.label_b4.Location = new System.Drawing.Point(87, 39);
             this.label_b4.Name = "label_b4";
-            this.label_b4.Size = new System.Drawing.Size(21, 22);
+            this.label_b4.Size = new System.Drawing.Size(24, 25);
             this.label_b4.TabIndex = 39;
             this.label_b4.Text = "0";
             // 
             // flowPanel_1
             // 
             this.flowPanel_1.BackColor = System.Drawing.Color.Transparent;
-            this.flowPanel_1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flowPanel_1.ForeColor = System.Drawing.Color.LawnGreen;
+            this.flowPanel_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flowPanel_1.ForeColor = System.Drawing.Color.GreenYellow;
             this.flowPanel_1.Location = new System.Drawing.Point(890, 523);
             this.flowPanel_1.Name = "flowPanel_1";
             this.flowPanel_1.Size = new System.Drawing.Size(289, 23);
@@ -546,8 +546,8 @@
             // flowPanel_2
             // 
             this.flowPanel_2.BackColor = System.Drawing.Color.Transparent;
-            this.flowPanel_2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flowPanel_2.ForeColor = System.Drawing.Color.LawnGreen;
+            this.flowPanel_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flowPanel_2.ForeColor = System.Drawing.Color.GreenYellow;
             this.flowPanel_2.Location = new System.Drawing.Point(593, 523);
             this.flowPanel_2.Name = "flowPanel_2";
             this.flowPanel_2.Size = new System.Drawing.Size(289, 23);
@@ -556,8 +556,8 @@
             // flowPanel_3
             // 
             this.flowPanel_3.BackColor = System.Drawing.Color.Transparent;
-            this.flowPanel_3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flowPanel_3.ForeColor = System.Drawing.Color.LawnGreen;
+            this.flowPanel_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flowPanel_3.ForeColor = System.Drawing.Color.GreenYellow;
             this.flowPanel_3.Location = new System.Drawing.Point(302, 523);
             this.flowPanel_3.Name = "flowPanel_3";
             this.flowPanel_3.Size = new System.Drawing.Size(289, 23);
@@ -566,8 +566,8 @@
             // flowPanel_4
             // 
             this.flowPanel_4.BackColor = System.Drawing.Color.Transparent;
-            this.flowPanel_4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.flowPanel_4.ForeColor = System.Drawing.Color.LawnGreen;
+            this.flowPanel_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flowPanel_4.ForeColor = System.Drawing.Color.GreenYellow;
             this.flowPanel_4.Location = new System.Drawing.Point(11, 523);
             this.flowPanel_4.Name = "flowPanel_4";
             this.flowPanel_4.Size = new System.Drawing.Size(289, 23);
@@ -585,12 +585,12 @@
             // 
             this.textBox4.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Komika Title - Axis", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.ForeColor = System.Drawing.Color.White;
             this.textBox4.Location = new System.Drawing.Point(92, 4);
             this.textBox4.MaxLength = 8;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(163, 32);
+            this.textBox4.Size = new System.Drawing.Size(163, 24);
             this.textBox4.TabIndex = 4;
             this.textBox4.Tag = "4";
             this.textBox4.Text = "Player 4";
@@ -599,12 +599,12 @@
             // 
             this.textBox3.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Komika Title - Axis", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.Color.White;
             this.textBox3.Location = new System.Drawing.Point(88, 4);
             this.textBox3.MaxLength = 8;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(163, 32);
+            this.textBox3.Size = new System.Drawing.Size(163, 24);
             this.textBox3.TabIndex = 3;
             this.textBox3.Tag = "3";
             this.textBox3.Text = "Player 3";
@@ -613,12 +613,12 @@
             // 
             this.textBox2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Komika Title - Axis", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.White;
             this.textBox2.Location = new System.Drawing.Point(87, 4);
             this.textBox2.MaxLength = 8;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(163, 32);
+            this.textBox2.Size = new System.Drawing.Size(163, 24);
             this.textBox2.TabIndex = 2;
             this.textBox2.Tag = "2";
             this.textBox2.Text = "Player 2";
@@ -627,12 +627,12 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Komika Title - Axis", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(979, 561);
             this.textBox1.MaxLength = 8;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(163, 32);
+            this.textBox1.Size = new System.Drawing.Size(163, 24);
             this.textBox1.TabIndex = 1;
             this.textBox1.Tag = "1";
             this.textBox1.Text = "Player 1";
@@ -649,6 +649,17 @@
             this.player4.TabIndex = 54;
             this.player4.Visible = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox2.Image = global::blackjack.Properties.Resources.cool;
+            this.pictureBox2.Location = new System.Drawing.Point(3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(78, 83);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 31;
+            this.pictureBox2.TabStop = false;
+            // 
             // player3
             // 
             this.player3.BackColor = System.Drawing.Color.Transparent;
@@ -661,6 +672,17 @@
             this.player3.TabIndex = 55;
             this.player3.Visible = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Image = global::blackjack.Properties.Resources.dog_07;
+            this.pictureBox1.Location = new System.Drawing.Point(2, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(80, 83);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 30;
+            this.pictureBox1.TabStop = false;
+            // 
             // player1
             // 
             this.player1.BackColor = System.Drawing.Color.Transparent;
@@ -669,6 +691,16 @@
             this.player1.Name = "player1";
             this.player1.Size = new System.Drawing.Size(287, 92);
             this.player1.TabIndex = 56;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::blackjack.Properties.Resources.pup;
+            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(77, 84);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 32;
+            this.pictureBox4.TabStop = false;
             // 
             // player2
             // 
@@ -682,66 +714,6 @@
             this.player2.TabIndex = 57;
             this.player2.Visible = false;
             // 
-            // label_caption1
-            // 
-            this.label_caption1.AutoSize = true;
-            this.label_caption1.BackColor = System.Drawing.Color.White;
-            this.label_caption1.Font = new System.Drawing.Font("Komika Title", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_caption1.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label_caption1.Location = new System.Drawing.Point(574, 40);
-            this.label_caption1.Name = "label_caption1";
-            this.label_caption1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label_caption1.Size = new System.Drawing.Size(174, 34);
-            this.label_caption1.TabIndex = 59;
-            this.label_caption1.Text = "SET YOUR PLAYERS";
-            this.label_caption1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label_caption2
-            // 
-            this.label_caption2.AutoSize = true;
-            this.label_caption2.BackColor = System.Drawing.Color.White;
-            this.label_caption2.Font = new System.Drawing.Font("Komika Title", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_caption2.ForeColor = System.Drawing.Color.DarkBlue;
-            this.label_caption2.Location = new System.Drawing.Point(589, 66);
-            this.label_caption2.Name = "label_caption2";
-            this.label_caption2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label_caption2.Size = new System.Drawing.Size(167, 34);
-            this.label_caption2.TabIndex = 61;
-            this.label_caption2.Text = "AND THEIR NAMES";
-            this.label_caption2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox5.Image = global::blackjack.Properties.Resources.grumpy;
-            this.pictureBox5.Location = new System.Drawing.Point(785, 53);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(80, 84);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 35;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Image = global::blackjack.Properties.Resources.cool;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(78, 83);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 31;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::blackjack.Properties.Resources.pup;
-            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(77, 84);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 32;
-            this.pictureBox4.TabStop = false;
-            // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -754,16 +726,46 @@
             this.pictureBox3.TabIndex = 32;
             this.pictureBox3.TabStop = false;
             // 
-            // pictureBox1
+            // label_caption1
             // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Image = global::blackjack.Properties.Resources.dog_07;
-            this.pictureBox1.Location = new System.Drawing.Point(2, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(80, 83);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 30;
-            this.pictureBox1.TabStop = false;
+            this.label_caption1.AutoSize = true;
+            this.label_caption1.BackColor = System.Drawing.Color.White;
+            this.label_caption1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_caption1.ForeColor = System.Drawing.Color.DarkBlue;
+            this.label_caption1.Location = new System.Drawing.Point(278, 47);
+            this.label_caption1.Name = "label_caption1";
+            this.label_caption1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label_caption1.Size = new System.Drawing.Size(175, 24);
+            this.label_caption1.TabIndex = 59;
+            this.label_caption1.Text = "SET YOUR PLAYERS";
+            this.label_caption1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label_caption1.UseCompatibleTextRendering = true;
+            // 
+            // label_caption2
+            // 
+            this.label_caption2.AutoSize = true;
+            this.label_caption2.BackColor = System.Drawing.Color.White;
+            this.label_caption2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_caption2.ForeColor = System.Drawing.Color.DarkBlue;
+            this.label_caption2.Location = new System.Drawing.Point(282, 77);
+            this.label_caption2.Name = "label_caption2";
+            this.label_caption2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label_caption2.Size = new System.Drawing.Size(162, 24);
+            this.label_caption2.TabIndex = 61;
+            this.label_caption2.Text = "AND THEIR NAMES";
+            this.label_caption2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label_caption2.UseCompatibleTextRendering = true;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox5.Image = global::blackjack.Properties.Resources.grumpy;
+            this.pictureBox5.Location = new System.Drawing.Point(489, 53);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(80, 84);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 35;
+            this.pictureBox5.TabStop = false;
             // 
             // pictureBox6
             // 
@@ -779,7 +781,7 @@
             // pictureBox_caption
             // 
             this.pictureBox_caption.Image = global::blackjack.Properties.Resources.caption;
-            this.pictureBox_caption.Location = new System.Drawing.Point(551, 9);
+            this.pictureBox_caption.Location = new System.Drawing.Point(255, 9);
             this.pictureBox_caption.Name = "pictureBox_caption";
             this.pictureBox_caption.Size = new System.Drawing.Size(229, 128);
             this.pictureBox_caption.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -792,7 +794,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaGreen;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1193, 697);
+            this.ClientSize = new System.Drawing.Size(1201, 730);
             this.Controls.Add(this.label_numPlayers);
             this.Controls.Add(this.label_caption2);
             this.Controls.Add(this.label_caption1);
@@ -835,16 +837,16 @@
             this.panel_playerButtons.ResumeLayout(false);
             this.player4.ResumeLayout(false);
             this.player4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.player3.ResumeLayout(false);
             this.player3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.player1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.player2.ResumeLayout(false);
             this.player2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_caption)).EndInit();
             this.ResumeLayout(false);

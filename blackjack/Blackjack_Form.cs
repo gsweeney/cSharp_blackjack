@@ -11,6 +11,9 @@ using blackjack.classes;
 using blackjack.interfaces;
 using System.Media;
 using System.IO;
+using System.Reflection;
+using System.Runtime.InteropServices;
+using System.Drawing.Text;
 
 
 namespace blackjack
@@ -31,6 +34,9 @@ namespace blackjack
         List<GroupBox> groupboxes = new List<GroupBox>();
         List<TextBox> playernames = new List<TextBox>();
 
+        // fonts
+        PrivateFontCollection pfc = new PrivateFontCollection();
+
         /* properties */
         public string NumPlayers
         {
@@ -38,6 +44,37 @@ namespace blackjack
             set { comboBox_playerSelect.Text = value; }
         }
 
+        void addFonts() {
+            // specify embedded resource name
+            string resource = "embedded_font.KOMTITA.TTF";
+
+            // receive resource stream
+            Stream fontStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(resource);
+
+            // create an unsafe memory block for the font data
+            System.IntPtr data = Marshal.AllocCoTaskMem((int)fontStream.Length);
+
+            // create a buffer to read in to
+            byte[] fontdata = new byte[fontStream.Length];
+
+            // read the font data from the resource
+            fontStream.Read(fontdata, 0, (int)fontStream.Length);
+
+            // copy the bytes to the unsafe memory block
+            Marshal.Copy(fontdata, 0, data, (int)fontStream.Length);
+
+            // pass the font to the font collection
+            pfc.AddMemoryFont(data, (int)fontStream.Length);
+
+            // close the resource stream
+            fontStream.Close();
+
+            // free up the unsafe memory
+            Marshal.FreeCoTaskMem(data);
+
+            label_caption1.Font = new Font(pfc.Families[0], 16, FontStyle.Regular);
+            label_caption2.Font = new Font(pfc.Families[0], 16, FontStyle.Regular);
+        }
 
         /// <summary>
         /// constructor
@@ -45,6 +82,8 @@ namespace blackjack
         public Blackjack_Form()
         {
             InitializeComponent();
+
+            //addFonts();
 
             game = new BlackjackGame(this);
 
@@ -81,6 +120,9 @@ namespace blackjack
             playernames.Add(textBox2);
             playernames.Add(textBox3);
             playernames.Add(textBox4);
+
+
+
         }
 
         /// <summary>

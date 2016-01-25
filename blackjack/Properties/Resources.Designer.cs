@@ -408,6 +408,16 @@ namespace blackjack.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] KOMTITA {
+            get {
+                object obj = ResourceManager.GetObject("KOMTITA", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap logo {
@@ -584,6 +594,16 @@ namespace blackjack.Properties {
             get {
                 object obj = ResourceManager.GetObject("six_of_spades", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Sketch_Block {
+            get {
+                object obj = ResourceManager.GetObject("Sketch_Block", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
